@@ -1,0 +1,40 @@
+# Environments & Secrets
+.env
+*.env
+*.keystore
+*.jks
+*.key
+*.pem
+signing_key.json
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.lock
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
